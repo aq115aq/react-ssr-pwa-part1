@@ -1,3 +1,6 @@
+// 用 Ducks 结构， 把相关的代码放在一个独立的 module 文件中
+// 对外暴露 types、reducer、action creators
+
 // Actions
 export const types = {
   LOGIN: 'user/LOGIN',
@@ -7,7 +10,6 @@ export const types = {
 const initialState = {
   isLogined: false
 }
-
 // Reducer
 export default function reducer(state = initialState, action = {}) {
   switch (action.type) {
