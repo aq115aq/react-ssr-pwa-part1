@@ -1,10 +1,16 @@
 # react-ssr-pwa-part1
 node服务端/react &amp; react-router &amp; redux
 
-npm install
+安装依赖
 
-npm run build
+    npm install
+    
+打包
 
-npm run start
+    npm run build
+    
+启动服务器
 
-http://localhost:8088/
+    npm run start
+    
+打开 http://localhost:8088/
